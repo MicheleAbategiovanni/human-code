@@ -1,0 +1,28 @@
+- Raggruppo tutti i documenti
+- Torno alla scrivania
+- Posiamo i documenti sulla scrivania
+
+MENTRE i documenti (x) sono > 0
+
+    - SE lo scanner è acceso:
+
+        TRUE: 
+            - Prendo il documento
+
+        FALSE: 
+            - Accendo lo scanner
+            - Preparo il documento
+
+    - Guardo il documento
+    - SE ha un retro:
+        TRUE: 
+            - Inserisco il documento rivolta con la facciata A sullo Scanner
+            - Scannerizzo la facciata A sullo Scanner
+            - Inserisco il documento rivolta con la facciata B sullo Scanner
+            - Scannerizzo la facciata B sullo Scanner
+
+        FALSE:
+            - Inserisco il documento rivolta con la facciata A sullo Scanner
+            - Scannerizzo la facciata A sullo Scanner
+
+
