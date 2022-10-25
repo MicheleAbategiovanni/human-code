@@ -1,0 +1,73 @@
+			- Mi reco a prendere il documento
+			- Prendo il documento
+			- Mi reco alla scrivania
+			- Poggio il documento sulla scrivania
+			- Mi siedo sulla sedia della scrivania
+            - Mi avvicino al computer
+            - Controllo se il computer è acceso
+
+                    SE Computer è acceso
+
+                    TRUE SE Computer ha una password
+                            TRUE 
+                                Inserisco password
+                                SE Password è corretta
+                                    TRUE Accedo
+                                    ALTRIMENTI Reinserisco Password
+                            ALTRIMENTI Accedo
+
+                    ALTRIMENTI SE Computer è in stand-by
+
+                                TRUE Accendo il pc 
+
+                                     SE computer ha password
+
+                                        TRUE Inserisco password
+
+                                            SE  password è corretta
+                                                TRUE Accedo
+                                                ALTRIMENTI Reinserisco password
+                                                
+                                        ALTRIMENTI Accedo
+
+                                ALTRIMENTI 
+                                    Pigio bottone per l'accensione del pc
+                                    Aspetto che il computer si accenda
+                
+            - Attendo caricamento del pc
+
+            - Controllo se lo scanner è acceso
+                   
+                    SE lo scanner è acceso
+                            
+                            TRUE 
+                                Controllo se lo scanner sia collegato al computer
+                                   
+                                    SE  Scanner è collegato
+
+                                        TRUE Apro Il programma del mio scanner sul computer
+
+                                        ALTRIMENTI Collego il cavo al Computer
+
+
+                            ALTRIMENTI Accendo lo scanner 
+                
+            - Prendo il documento da scannerizzare 
+            - Controllo se il documento deve essere fronte retro
+
+                        SE documento deve essere frote retro
+
+                            TRUE
+                                Inserisco il fronte del documento 
+                                Scannerizzo il fronte del documento
+                                Attendo la fine della scannerizzazione
+                                Inserisco il retro del documento
+                                Scannerizzo il retro del documento del documento  
+                                Attendo la fine della scannerizzazione   
+
+                            ALTRIMENTI 
+                                Inserisco il documento
+                                Scannerizzo il documento
+                                Attendo la fine della scannerizzazione
+                
+            - Salvo il mio documento scannerizzato sul pc           
